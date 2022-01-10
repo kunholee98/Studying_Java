@@ -27,6 +27,7 @@ public class Student {
             total += subject.getScore();
             System.out.println(studentName + " 학생의 " + subject.subjectName + " 과목의 성적은 " + subject.getScore() + " 점입니다.");
         }
+        System.out.println(studentId);
         System.out.println(studentName + " 학생의 총점은 " + subjectList.size() + " 과목 " + total + " 점입니다.");
         System.out.println(studentName + " 학생의 평균은 " + (float)total/subjectList.size() + " 점입니다.");
     }
